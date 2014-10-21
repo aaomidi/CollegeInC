@@ -1,4 +1,0 @@
-CollegeInC
-==========
-
-Algorithms in C

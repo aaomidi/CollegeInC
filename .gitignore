@@ -28,3 +28,10 @@
 *.x86_64
 *.hex
 
+# IntelliJ CLion
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
