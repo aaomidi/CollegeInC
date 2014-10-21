@@ -7,27 +7,16 @@ void convertDecimalToBinary() {
     scanf("%d", &number);
     
     long int result = 0;
-    int i = 0;
+    int i = 1;
 
-    while (number != 0) {
+    while (number > 0) {
         if(number % 2 == 1) {
-            result += myPow(10, i);
+            result += i;
         }
         number /= 2;
-        i++;
+        i *= 10;
     }
     
     printf("%d", result);
-}
-
-int myPow(int a1, int a2) {
-    int result = 1;
-        
-    while(a2 != 0) {
-        result *= a1;
-        a2--;
-    }
-    
-    return result;
 }
 
