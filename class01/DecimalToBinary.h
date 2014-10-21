@@ -9,8 +9,8 @@ void convertDecimalToBinary() {
     int result = 0;
     int i = 0;
 
-    while (number != 0){
-        if(number % 2 == 1){
+    while (number != 0) {
+        if(number % 2 == 1) {
             result += myPow(10, i);
         }
         number /= 2;

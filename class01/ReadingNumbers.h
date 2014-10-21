@@ -3,7 +3,7 @@ float myAverage(int[], int, int);
 
 void readNumbers() {
 
-	int buffer;
+	int buffer = 1024;
 	int i = 0;
 
 	printf("Please enter how many numbers you want to read.\n");
