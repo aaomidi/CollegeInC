@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int gcd(int m, int n);
+
 void lcm() {
     // Initialize the m and n value.
     int m = 0;
