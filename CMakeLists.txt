@@ -9,6 +9,7 @@ set(SOURCE_FILES
     class01/NumberMirror.h
     class01/ReadingNumbers.h
     class02/LCM.h
+    class02/Sort.h
     .gitignore
     main.c)
 

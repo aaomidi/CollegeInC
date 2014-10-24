@@ -1,10 +1,11 @@
-#include "class02/LCM.h";
+#include "class02/Sort.h"
 
 int main() {
     // convertDecimalToBinary();
     // makeDecision();
     // readNumbers();
     // mirrorNumber();
-    lcm();
+    // lcm();
+    sort();
     return 0;
 }
