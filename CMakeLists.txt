@@ -8,6 +8,7 @@ set(SOURCE_FILES
     class01/DecisionMaking.h
     class01/NumberMirror.h
     class01/ReadingNumbers.h
+    class02/LCM.h
     .gitignore
     main.c)
 
