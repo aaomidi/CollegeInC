@@ -1,4 +1,5 @@
-#include "projects/Account.h"
+#include "class03/DivisionBy3.h"
+#include "class03/CalculateE.h"
 
 int main() {
     // convertDecimalToBinary();
@@ -7,7 +8,12 @@ int main() {
     // mirrorNumber();
     // lcm();
     // sort();
-    bank();
+    calculateE();
+    // divisionBy3();
     // solveSet();
+    // splitNumbers();
+    /* Projects */
+    // bank();
+    getchar();
     return 0;
 }

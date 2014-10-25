@@ -10,7 +10,10 @@ set(SOURCE_FILES
     class01/ReadingNumbers.h
     class02/LCM.h
     class02/Sort.h
+    class03/CalculateE.h
+    class03/DivisionBy3.h
     class03/SetSolver.h
+    class03/SplitNumbers.h
     projects/Account.h
     .gitignore
     main.c)
