@@ -1,4 +1,4 @@
-#include "class02/Sort.h"
+#include "class03/SetSolver.h"
 
 int main() {
     // convertDecimalToBinary();
@@ -6,6 +6,8 @@ int main() {
     // readNumbers();
     // mirrorNumber();
     // lcm();
-    sort();
+    // sort();
+    // bank();
+    solveSet();
     return 0;
 }
