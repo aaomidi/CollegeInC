@@ -62,7 +62,7 @@ void bank() {
     }
     // UI
     printf("\nStarting Balance: %9.2f\n", startingBalance);
-    printf("\nLatest Balance: %9.2f\n", balance);
+    printf("Latest Balance: %9.2f\n", balance);
     for (operation = 0; operation < 100; operation++) {
         printf("-");
     }

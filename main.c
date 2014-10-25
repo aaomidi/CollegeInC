@@ -1,4 +1,4 @@
-#include "class03/SetSolver.h"
+#include "projects/Account.h"
 
 int main() {
     // convertDecimalToBinary();
@@ -7,7 +7,7 @@ int main() {
     // mirrorNumber();
     // lcm();
     // sort();
-    // bank();
-    solveSet();
+    bank();
+    // solveSet();
     return 0;
 }
