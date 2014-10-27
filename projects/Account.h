@@ -15,7 +15,8 @@ void bank() {
         setbuf(stdin, NULL);
         if (!status || balance < 0) {
             // UI
-            printf("You need to enter a number for the account balance and it can not be negative.");
+            printf("You need to enter a number for the account balance and it can not be negative.\n");
+            status = 0;
             continue;
         }
     }
@@ -57,18 +58,18 @@ void bank() {
         scanf("%f", &operation);
     }
     // UI
-    for (operation = 0; operation < 100; operation++) {
+    for (operation = 0; operation < 70; operation++) {
         printf("=");
     }
     // UI
     printf("\nStarting Balance: %9.2f\n", startingBalance);
     printf("Latest Balance: %9.2f\n", balance);
-    for (operation = 0; operation < 100; operation++) {
+    for (operation = 0; operation < 70; operation++) {
         printf("-");
     }
     // UI
     printf("\n%-15s|%-10s|%-10s|%-10s\n", "Operation", "Deposit", "Withdrawl", "Balance");
-    for (operation = 0; operation < 100; operation++) {
+    for (operation = 0; operation < 70; operation++) {
         printf("-");
     }
     printf("\n");
@@ -83,4 +84,5 @@ void bank() {
             printf("%-15d|%10.2f|%10.2f|%10.2f\n", b + 1, 0.0, operatives[b] * -1, startingBalance);
         }
     }
+    getchar();
 }
