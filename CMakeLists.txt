@@ -15,6 +15,7 @@ set(SOURCE_FILES
     class03/SetSolver.h
     class03/SplitNumbers.h
     projects/Account.h
+    projects/RootSolver.h
     .gitignore
     main.c)
 

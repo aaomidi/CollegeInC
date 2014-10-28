@@ -84,5 +84,4 @@ void bank() {
             printf("%-15d|%10.2f|%10.2f|%10.2f\n", b + 1, 0.0, operatives[b] * -1, startingBalance);
         }
     }
-    getchar();
 }

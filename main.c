@@ -1,7 +1,8 @@
-#include "class03/DivisionBy3.h"
-#include "projects/Account.h"
+#include "projects/RootSolver.h"
+
 
 int main() {
+    /* Simple Algorithms */
     // convertDecimalToBinary();
     // makeDecision();
     // readNumbers();
@@ -13,7 +14,10 @@ int main() {
     // solveSet();
     // splitNumbers();
     /* Projects */
-    bank();
+    // bank();
+    solveForRoots();
+    // Don't close the console until the user has typed a letter.
+    setbuf(stdin, NULL);
     getchar();
     return 0;
 }
