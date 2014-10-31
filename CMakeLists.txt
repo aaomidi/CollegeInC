@@ -14,6 +14,7 @@ set(SOURCE_FILES
     class03/DivisionBy3.h
     class03/SetSolver.h
     class03/SplitNumbers.h
+    exams/AverageChecker.h
     projects/Account.h
     projects/RootSolver.h
     .gitignore
