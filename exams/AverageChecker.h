@@ -4,7 +4,7 @@ void averageChecker() {
     int i = 0;
     int values[100];
     float avg = 0;
-    while (i < 3) {
+    while (i < 100) {
         printf("Please enter the %d number.\n", i + 1);
         int input;
         scanf("%d", &input);
@@ -21,7 +21,7 @@ void averageChecker() {
     num[1] = 0;
     // Equal numbers.
     num[2] = 0;
-    while (i < 3) {
+    while (i < 100) {
         int temp = values[i];
         if (temp > avg) {
             num[0]++;
