@@ -1,3 +1,7 @@
+/**
+* This program will attempt to find the roots of a quadratic equation.
+* This program supports real and imaginary roots.
+*/
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
