@@ -14,8 +14,8 @@ void solveForRoots() {
     delta = ((b * b) - (4 * a * c));
     // Three conditions for the determinant.
     if (delta > 0) {
-        r1 = (-b + sqrt(delta)) / (2 * a);
-        r2 = (-b - sqrt(delta)) / (2 * a);
+        r1 = ((-b + sqrt(delta)) / (2 * a));
+        r2 = ((-b - sqrt(delta)) / (2 * a));
     } else if (delta == 0) {
         r1 = r2 = -b / (2 * a);
     } else {

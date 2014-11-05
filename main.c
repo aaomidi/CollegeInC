@@ -1,5 +1,4 @@
 #include "projects/RootSolver.h"
-#include "exams/AverageChecker.h"
 
 
 int main() {
@@ -15,10 +14,10 @@ int main() {
     // solveSet();
     // splitNumbers();
     /* Exams */
-    averageChecker();
+    // averageChecker();
     /* Projects */
     // bank();
-    // solveForRoots();
+    solveForRoots();
     // Don't close the console until the user has typed a letter.
     setbuf(stdin, NULL);
     getchar();
