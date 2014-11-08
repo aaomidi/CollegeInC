@@ -1,5 +1,6 @@
+#include <w32api/windows.storage.h>
 #include "projects/RootSolver.h"
-
+#include "projects/TimeSolution.h"
 
 int main() {
     /* Simple Algorithms */
@@ -17,9 +18,25 @@ int main() {
     // averageChecker();
     /* Projects */
     // bank();
-    solveForRoots();
+    // solveForRoots();
+    timeSolution();
     // Don't close the console until the user has typed a letter.
+    int operation;
+    printf("\n");
+    for (operation = 0; operation < 70; operation++) {
+        printf("-");
+    }
+    printf("\nPlease enter q to quit the program or r to rerun the program.\n");
     setbuf(stdin, NULL);
-    getchar();
+    char action;
+    action = getchar();
+    if (action == 'r') {
+        for (operation = 0; operation < 70; operation++) {
+            printf("-");
+        }
+        printf("\n");
+        setbuf(stdin, NULL);
+        main();
+    }
     return 0;
 }
