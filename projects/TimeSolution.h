@@ -11,14 +11,14 @@ void timeSolution() {
         input -= 365;
     }
     if (input >= 30) {
-        if (input <= 180) {
-            month += (input / 30);
-            input %= 30;
+        if (input <= 186) {
+            month += (input / 31);
+            input %= 31;
         } else {
-            month = ((input - 180) / 31) + 6;
-            input = (input - 180) % 31;
+            month = ((input - 186) / 30) + 6;
+            input = (input - 186) % 30;
         }
     }
     day = input;
-    printf("Your input of %d is %d years, %d months and %d days.", oldInput, year, month, day);
+    printf("Your input of %d days is %d years, %d months and %d days.", oldInput, year, month, day);
 }
