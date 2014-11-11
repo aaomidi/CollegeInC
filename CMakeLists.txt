@@ -18,6 +18,7 @@ set(SOURCE_FILES
     projects/Account.h
     projects/RootSolver.h
     projects/TimeSolution.h
+    random/SquareDrawer.h
     .gitignore
     main.c)
 
