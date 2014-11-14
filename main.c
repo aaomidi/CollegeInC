@@ -1,4 +1,5 @@
 #include "random/SquareDrawer.h"
+#include "projects/Tax.h"
 
 int main() {
     /* Simple Algorithms */
@@ -17,9 +18,10 @@ int main() {
     /* Projects */
     // bank();
     //solveForRoots();
+    tax();
     //timeSolution();
     /* Randoms */
-    drawSquare();
+    // drawSquare();
     // Don't close the console until the user has typed a letter.
     int operation;
     printf("\n");

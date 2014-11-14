@@ -17,6 +17,7 @@ set(SOURCE_FILES
     exams/AverageChecker.h
     projects/Account.h
     projects/RootSolver.h
+    projects/Tax.h
     projects/TimeSolution.h
     random/SquareDrawer.h
     .gitignore
