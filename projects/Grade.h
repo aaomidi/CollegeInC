@@ -22,16 +22,16 @@ void calculateGPA() {
         char grade;
         printf("Please enter your letter grade.\n");
         //Read user entry for grade.
-        while (scanf("%c", &grade)) {
-            setbuf(stdin, NULL);
-            printf("Your entry was not recognized, please type in the letter grade again.\n");
+        while (!scanf("%s", &grade)) {
+            printf("That grade letter was not recognized. Please enter it again.\n");
         }
+        setbuf(stdin, NULL);
         grade = tolower(grade);
         result = checkEntry(grade);
         if (result) {
             int credits;
             printf("Please enter the number of credits.\n");
-            while (!scanf("%d", &credits)) {
+            while (scanf("%d", &credits)) {
                 setbuf(stdin, NULL);
                 printf("Please enter an integer for credits.\n");
             }
