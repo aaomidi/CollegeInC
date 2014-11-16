@@ -15,5 +15,5 @@ void tax() {
     } else {
         b = a * 0.2;
     }
-    printf("Your net income tax is: %.2lf Rials or %.2lf Tomans.", b, b / 10);
+    printf("Your yearly net income tax is: %.2lf Rials or %.2lf Tomans.\n", b, b / 10);
 }

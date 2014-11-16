@@ -1,5 +1,6 @@
 #include "random/SquareDrawer.h"
-#include "projects/Tax.h"
+#include "projects/RootSolver.h"
+#include "projects/Grade.h"
 
 int main() {
     /* Simple Algorithms */
@@ -17,10 +18,12 @@ int main() {
     // averageChecker();
     /* Projects */
     // bank();
-    //solveForRoots();
-    tax();
-    //timeSolution();
+    calculateGPA();
+    // solveForRoots();
+    // tax();
+    // timeSolution();
     /* Randoms */
+    // extra();
     // drawSquare();
     // Don't close the console until the user has typed a letter.
     int operation;

@@ -16,9 +16,11 @@ set(SOURCE_FILES
     class03/SplitNumbers.h
     exams/AverageChecker.h
     projects/Account.h
+    projects/Grade.h
     projects/RootSolver.h
     projects/Tax.h
     projects/TimeSolution.h
+    random/Extra.h
     random/SquareDrawer.h
     .gitignore
     main.c)
