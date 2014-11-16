@@ -31,7 +31,7 @@ void calculateGPA() {
         if (result) {
             int credits;
             printf("Please enter the number of credits.\n");
-            while (scanf("%d", &credits)) {
+            while (!scanf("%d", &credits)) {
                 setbuf(stdin, NULL);
                 printf("Please enter an integer for credits.\n");
             }
