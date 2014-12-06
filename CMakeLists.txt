@@ -18,6 +18,7 @@ set(SOURCE_FILES
     projects/Account.h
     projects/Grade.h
     projects/RootSolver.h
+    projects/SwapName.h
     projects/Tax.h
     projects/TimeSolution.h
     random/Extra.h

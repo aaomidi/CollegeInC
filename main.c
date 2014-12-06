@@ -1,6 +1,5 @@
-#include "random/SquareDrawer.h"
-#include "projects/RootSolver.h"
-#include "projects/Grade.h"
+#include <stdio.h>
+#include "projects/SwapName.h"
 
 int main() {
     /* Simple Algorithms */
@@ -18,8 +17,9 @@ int main() {
     // averageChecker();
     /* Projects */
     // bank();
-    calculateGPA();
+    // calculateGPA();
     // solveForRoots();
+    swapName();
     // tax();
     // timeSolution();
     /* Randoms */
@@ -40,7 +40,9 @@ int main() {
             printf("-");
         }
         printf("\n");
-        setbuf(stdin, NULL);
+        // Clear the stdin buffer.
+        int ch;
+        while ((ch = getchar()) != '\n' && ch != EOF);
         main();
     }
     return 0;
