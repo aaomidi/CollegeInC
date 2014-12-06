@@ -16,7 +16,9 @@ set(SOURCE_FILES
     class03/SplitNumbers.h
     exams/AverageChecker.h
     projects/Account.h
+    projects/FindCharacter.h
     projects/Grade.h
+    projects/Khayyam.h
     projects/RootSolver.h
     projects/SwapName.h
     projects/Tax.h

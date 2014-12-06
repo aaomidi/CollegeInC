@@ -1,34 +1,17 @@
 #include <stdio.h>
+#include <ctype.h>
 
 void extra() {
-    char name[100][32];
-    float score[100], temp = 0, sum = 0;
-    int i = 0, count = 0, result = 1;
-
-    do {
-        printf("Lotfan name daneshju ra benevisid.\n");
-        // Khundane name daneshju ta EoF.
-        result = scanf("%s", name[i]);
-        if (result != 0) {
-            do {
-                printf("Lotfan nomreye daneshju va vared konid.\n");
-                // Khundane nomreye daneshju ta zamani ke nomre -1 nashode.
-                scanf("%f", &temp);
-                if (temp >= 0) {
-                    sum += temp;
-                    count++;
-                }
-            } while (temp >= 0);
-            // Zakhire kardane miyangine nomre.
-            score[i] = sum / count;
-            i++;
+    char ch1, ch2, string[1024], temp;
+    int i = 0, count = 0;
+    printf("Please enter a character.\n");
+    scanf("%c", &ch1);
+    printf("Please enter a string.\n");
+    scanf("%s", string);
+    for (i = 0; i < strlen(string); i++) {
+        if (string[i] == ch1) {
+            count++;
         }
-    } while (result == 1);
-    int j;
-    sum = 0;
-    // Peyda kardane miyangine kelas
-    for (j = 0; j <= i; j++) {
-        sum += score[j];
     }
-    printf("Miyange kelas barabare %f mibashad.", sum / i);
+    printf("The count of %c is %d.", ch1, count);
 }

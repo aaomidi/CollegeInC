@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "projects/SwapName.h"
+#include "projects/FindCharacter.h"
 
 int main() {
     /* Simple Algorithms */
@@ -17,9 +17,11 @@ int main() {
     // averageChecker();
     /* Projects */
     // bank();
+    findCharacter();
     // calculateGPA();
+    // khayyam();
     // solveForRoots();
-    swapName();
+    // swapName();
     // tax();
     // timeSolution();
     /* Randoms */
@@ -32,7 +34,12 @@ int main() {
         printf("-");
     }
     printf("\nPlease enter 'q' to quit the program or 'r' to re-run the program.\n");
-    setbuf(stdin, NULL);
+
+    // Clear the stdin buffer.
+    int ch;
+    while ((ch = getchar()) != '\n' && ch != EOF);
+    // End Clear
+
     char action;
     action = getchar();
     if (action == 'r') {
@@ -43,7 +50,7 @@ int main() {
         // Clear the stdin buffer.
         int ch;
         while ((ch = getchar()) != '\n' && ch != EOF);
-        main();
+        // End clear
     }
     return 0;
 }
