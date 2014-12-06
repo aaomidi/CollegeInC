@@ -13,7 +13,7 @@ void findCharacter() {
 
 int _findCharacter(char string[], char ch1) {
     int i;
-    for (i = 0; string[i] != "/0"; i++) {
+    for (i = 0; string[i] != NULL; i++) {
         if (string[i] == ch1) {
             return i + 1;
         }
